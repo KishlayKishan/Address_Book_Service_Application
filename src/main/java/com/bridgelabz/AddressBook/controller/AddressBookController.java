@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/addressbook")
-public class AddressbookController {
+public class AddressBookController {
 
     @Autowired
     IAddressBookService addressbookService;
