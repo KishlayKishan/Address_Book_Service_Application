@@ -26,3 +26,11 @@
 2022-05-30 12:37:20.260  INFO 4724 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 17.439 seconds (JVM running for 19.359)
 2022-05-30 12:37:20.275  INFO 4724 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
 2022-05-30 12:37:20.292  INFO 4724 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-30 12:45:56.632  INFO 8284 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.2 on DESKTOP-69A8K9E with PID 8284 (C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook\target\classes started by HP in C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook)
+2022-05-30 12:45:56.637 DEBUG 8284 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-30 12:45:56.637  INFO 8284 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
+2022-05-30 12:46:07.554  WARN 8284 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 12:46:09.132  INFO 8284 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 13.63 seconds (JVM running for 15.435)
+2022-05-30 12:46:09.132  INFO 8284 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
+2022-05-30 12:46:09.148  INFO 8284 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-30 12:47:08.583  WARN 8284 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.AddressBook.exception.AddressbookException: Person Not found]
