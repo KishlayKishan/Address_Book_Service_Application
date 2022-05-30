@@ -39,3 +39,5 @@
 2022-05-30 12:55:58.552  INFO 7760 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
 2022-05-30 12:56:14.395  WARN 7760 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-05-30 12:56:15.895  INFO 7760 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 19.755 seconds (JVM running for 22.192)
+2022-05-30 12:56:15.911  INFO 7760 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
+2022-05-30 12:56:15.911  INFO 7760 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
