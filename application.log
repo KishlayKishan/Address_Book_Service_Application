@@ -1,0 +1,7 @@
+2022-05-30 10:07:57.678  INFO 10984 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.2 on DESKTOP-69A8K9E with PID 10984 (C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook\target\classes started by HP in C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook)
+2022-05-30 10:07:57.723 DEBUG 10984 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-30 10:07:57.727  INFO 10984 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
+2022-05-30 10:08:28.740  WARN 10984 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 10:08:30.843  INFO 10984 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 35.006 seconds (JVM running for 39.282)
+2022-05-30 10:08:30.876  INFO 10984 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
+2022-05-30 10:08:30.902  INFO 10984 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
