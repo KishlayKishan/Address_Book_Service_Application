@@ -41,3 +41,151 @@
 2022-05-30 12:56:15.895  INFO 7760 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 19.755 seconds (JVM running for 22.192)
 2022-05-30 12:56:15.911  INFO 7760 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
 2022-05-30 12:56:15.911  INFO 7760 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-30 13:26:44.765  INFO 6300 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.2 on DESKTOP-69A8K9E with PID 6300 (C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook\target\classes started by HP in C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook)
+2022-05-30 13:26:44.836 DEBUG 6300 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-30 13:26:44.838  INFO 6300 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
+2022-05-30 13:27:41.989  WARN 6300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:27:50.401  INFO 6300 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 70.655 seconds (JVM running for 74.195)
+2022-05-30 13:27:50.418  INFO 6300 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
+2022-05-30 13:27:50.424  INFO 6300 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-30 13:28:53.016  WARN 6300 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.AddressBook.dto.ResponseDTO> com.bridgelabz.AddressBook.controller.AddressBookController.addAddressbookData(com.bridgelabz.AddressBook.dto.AddressbookDTO) with 8 errors: [Field error in object 'addressbookDTO' on field 'phone': rejected value [null]; codes [NotEmpty.addressbookDTO.phone,NotEmpty.phone,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.phone,phone]; arguments []; default message [phone]]; default message [phone number is not empty]] [Field error in object 'addressbookDTO' on field 'address': rejected value [null]; codes [NotEmpty.addressbookDTO.address,NotEmpty.address,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.address,address]; arguments []; default message [address]]; default message [Address should not be empty]] [Field error in object 'addressbookDTO' on field 'firstName': rejected value [null]; codes [NotEmpty.addressbookDTO.firstName,NotEmpty.firstName,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.firstName,firstName]; arguments []; default message [firstName]]; default message [FirstName  cannot be null]] [Field error in object 'addressbookDTO' on field 'state': rejected value [null]; codes [NotEmpty.addressbookDTO.state,NotEmpty.state,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.state,state]; arguments []; default message [state]]; default message [State name  cannot be null]] [Field error in object 'addressbookDTO' on field 'zip': rejected value [null]; codes [NotEmpty.addressbookDTO.zip,NotEmpty.zip,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.zip,zip]; arguments []; default message [zip]]; default message [Zip code must not be null]] [Field error in object 'addressbookDTO' on field 'email': rejected value [null]; codes [NotEmpty.addressbookDTO.email,NotEmpty.email,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.email,email]; arguments []; default message [email]]; default message [email should not be empty]] [Field error in object 'addressbookDTO' on field 'lastName': rejected value [null]; codes [NotEmpty.addressbookDTO.lastName,NotEmpty.lastName,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.lastName,lastName]; arguments []; default message [lastName]]; default message [LastName name cannot be null]] [Field error in object 'addressbookDTO' on field 'city': rejected value [null]; codes [NotEmpty.addressbookDTO.city,NotEmpty.city,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.city,city]; arguments []; default message [city]]; default message [City name  cannot be null]] ]
+2022-05-30 13:40:32.726 DEBUG 6300 --- [http-nio-8080-exec-4] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=1, firstName=Kishlay, lastName=Kishan, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7979034653, email=abc@gmail.com)
+2022-05-30 13:41:23.354 DEBUG 6300 --- [http-nio-8080-exec-5] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=2, firstName=Akshay, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7057082582, email=xyz@gmail.com)
+2022-05-30 13:41:53.737 DEBUG 6300 --- [http-nio-8080-exec-6] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=3, firstName=Raman, lastName=Singh, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=8698645264, email=xyz@gmail.com)
+2022-05-30 13:42:16.943  WARN 6300 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.AddressBook.dto.ResponseDTO> com.bridgelabz.AddressBook.controller.AddressBookController.addAddressbookData(com.bridgelabz.AddressBook.dto.AddressbookDTO): [Field error in object 'addressbookDTO' on field 'lastName': rejected value [kumar]; codes [Pattern.addressbookDTO.lastName,Pattern.lastName,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.lastName,lastName]; arguments []; default message [lastName],[Ljavax.validation.constraints.Pattern$Flag;@6849f15b,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [LastName name is Invalid]] ]
+2022-05-30 13:42:24.779 DEBUG 6300 --- [http-nio-8080-exec-9] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=4, firstName=Krishna, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:42:45.338 DEBUG 6300 --- [http-nio-8080-exec-10] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=5, firstName=Kishan, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:46:00.107  INFO 6840 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.2 on DESKTOP-69A8K9E with PID 6840 (C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook\target\classes started by HP in C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook)
+2022-05-30 13:46:00.112 DEBUG 6840 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-30 13:46:00.115  INFO 6840 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
+2022-05-30 13:46:18.166 ERROR 6840 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLSyntaxErrorException: Unknown database 'addressbook_services'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.29.jar:8.0.29]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.bridgelabz.AddressBook.AddressBookApplication.main(AddressBookApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.0.jar:2.7.0]
+
+2022-05-30 13:46:18.204 ERROR 6840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-05-30 13:46:18.209  WARN 6840 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-05-30 13:46:18.419 ERROR 6840 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.bridgelabz.AddressBook.AddressBookApplication.main(AddressBookApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.0.jar:2.7.0]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 21 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.9.Final.jar:5.6.9.Final]
+	... 38 common frames omitted
+
+2022-05-30 13:48:38.817  INFO 9616 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 17.0.2 on DESKTOP-69A8K9E with PID 9616 (C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook\target\classes started by HP in C:\Users\HP\Desktop\Projects\Address_Book_SpringBoot\AddressBook)
+2022-05-30 13:48:38.858 DEBUG 9616 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-30 13:48:38.860  INFO 9616 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
+2022-05-30 13:49:04.053  WARN 9616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:49:06.745  INFO 9616 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 32.102 seconds (JVM running for 36.622)
+2022-05-30 13:49:06.760  INFO 9616 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
+2022-05-30 13:49:06.771  INFO 9616 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-30 13:50:13.036 DEBUG 9616 --- [http-nio-8080-exec-2] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=1, firstName=Kishan, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:50:38.777 DEBUG 9616 --- [http-nio-8080-exec-3] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=2, firstName=Kishlay, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:50:46.754 DEBUG 9616 --- [http-nio-8080-exec-5] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=3, firstName=Kishlay, lastName=Kishan, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:51:11.606 DEBUG 9616 --- [http-nio-8080-exec-4] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=4, firstName=Akshay, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:51:20.673 DEBUG 9616 --- [http-nio-8080-exec-6] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=5, firstName=Ram, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:51:33.428 DEBUG 9616 --- [http-nio-8080-exec-7] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=6, firstName=Sohan, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
+2022-05-30 13:51:44.978 DEBUG 9616 --- [http-nio-8080-exec-8] c.b.A.service.AddressbookServiceImpl     : AddressbookData: AddressbookData(personId=7, firstName=Vivek, lastName=Kumar, address=Muzaffarpur, city=Muzaffarpur, state=Bihar, zip=842002, phone=7066086825, email=xyz@gmail.com)
